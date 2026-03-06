@@ -22,7 +22,7 @@ export default defineConfig({
   networks: {
     hardhatMainnet: {
       type: "edr-simulated",
-      chainType: "l1",
+      chainType: "op",
     },
     hardhatOp: {
       type: "edr-simulated",
